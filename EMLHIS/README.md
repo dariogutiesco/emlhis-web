@@ -6,16 +6,22 @@ y un script pequeño. Se puede abrir `index.html` directamente en el navegador.
 ## Estructura
 
 ```
-index.html        Portada
-madrid.html       Encuentro de Madrid · 19 de octubre
-barcelona.html    Encuentro de Barcelona · 21 de octubre
-legal.html        Aviso legal, privacidad y cookies
-styles.css        Todos los estilos del sitio
-app.js            Contador de cifras y aparición de la galería
-img/              Fotografías, logotipos de aliados y retratos del equipo
-fonts/            Poppins, alojada aquí (no se pide a Google: RGPD)
-netlify.toml      Cabeceras, caché y URLs limpias
+netlify.toml      Raíz del repositorio. Indica que el sitio vive en EMLHIS/
+EMLHIS/
+  index.html      Portada
+  madrid.html     Encuentro de Madrid · 19 de octubre
+  barcelona.html  Encuentro de Barcelona · 21 de octubre y 11 de noviembre
+  legal.html      Aviso legal, privacidad y cookies
+  styles.css      Todos los estilos del sitio
+  app.js          Contador de cifras y aparición de la galería
+  robots.txt      Permite el rastreo y señala el sitemap
+  sitemap.xml     Las cuatro páginas, para Google
+  img/            Fotografías, logotipos de aliados y retratos del equipo
+  fonts/          Poppins, alojada aquí (no se pide a Google: RGPD)
 ```
+
+`netlify.toml` va **en la raíz del repositorio**, no dentro de `EMLHIS/`.
+Es la línea `publish = "EMLHIS"` la que le dice a Netlify dónde está el sitio.
 
 ## Cómo cambiar algo habitual
 
