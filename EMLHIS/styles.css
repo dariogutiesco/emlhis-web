@@ -350,3 +350,9 @@ footer{background:var(--crema-2);padding:clamp(52px,6vw,88px) var(--gut) 34px}
 .top-allies img{max-height:clamp(56px,6.4vw,84px);max-width:100%;width:auto;object-fit:contain}
 .subhead{margin-top:clamp(38px,4.6vw,64px);font-size:.7rem;font-weight:900;text-transform:uppercase;
   letter-spacing:.14em;color:var(--apagado);text-align:center}
+
+/* ── foto completa, sin recortar a nadie ───────────────────────── */
+.shot-fit{background:var(--crema-2);display:flex;justify-content:center;
+  padding:clamp(14px,1.8vw,26px) var(--gut)}
+.shot-fit img{max-height:min(78vh,680px);width:auto;max-width:100%;
+  object-fit:contain;display:block}
