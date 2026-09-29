@@ -341,3 +341,12 @@ footer{background:var(--crema-2);padding:clamp(52px,6vw,88px) var(--gut) 34px}
   .fbot{gap:8px}
   .fbot span:last-child{margin-left:0 !important}
 }
+
+/* ── aliados estratégicos: primer nivel, tarjetas grandes ──────── */
+.top-allies{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(12px,1.6vw,22px);margin-top:30px}
+.top-allies div{flex:1 1 240px;max-width:330px;display:flex;align-items:center;justify-content:center;
+  background:#fff;border:1.5px solid var(--linea);border-radius:18px;
+  min-height:clamp(110px,11vw,150px);padding:22px 26px}
+.top-allies img{max-height:clamp(56px,6.4vw,84px);max-width:100%;width:auto;object-fit:contain}
+.subhead{margin-top:clamp(38px,4.6vw,64px);font-size:.7rem;font-weight:900;text-transform:uppercase;
+  letter-spacing:.14em;color:var(--apagado);text-align:center}
