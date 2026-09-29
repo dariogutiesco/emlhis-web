@@ -36,3 +36,13 @@
   from = "/legal"
   to = "/legal.html"
   status = 200
+
+# Páginas de la web anterior que Google tiene indexadas
+[[redirects]]
+  from = "/actividades"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/riquezafemenina"
+  to = "/"
+  status = 301
