@@ -67,7 +67,8 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:70;background:rg
 .links a{font-size:.74rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:var(--tinta)}
 .links a:hover{color:var(--rosa-d)}
 .links a[aria-current]{color:var(--rosa-d)}
-@media(max-width:940px){.links{display:none}}
+@media(max-width:940px){.links{gap:18px}}
+@media(max-width:600px){.links{display:none}}
 
 /* ── hero ──────────────────────────────────────────────────────── */
 .hero{padding-block:clamp(30px,3.6vw,52px) clamp(20px,2.4vw,34px);display:grid;gap:clamp(18px,2.2vw,30px)}
@@ -399,7 +400,6 @@ section[id]{scroll-margin-top:92px}
 @media(max-width:520px){.team-txt{grid-template-columns:1fr}}
 
 /* ── Emblema de EMLHIS en la portada ──────────────────────────── */
-.hero-mark{display:block;width:clamp(84px,8.8vw,142px);height:auto;margin:0 0 clamp(18px,2.2vw,30px)}
 .band-ink .manifiesto{margin:clamp(22px,2.6vw,34px) 0 0;max-width:62ch;
   font-size:clamp(.96rem,1.35vw,1.16rem);font-weight:500;line-height:1.6;opacity:.82}
 
