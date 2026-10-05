@@ -370,7 +370,7 @@ section[id]{scroll-margin-top:92px}
 .panel article{flex:0 1 172px;text-align:center}
 .panel figure{position:relative;width:132px;height:132px;margin:0 auto 14px;border-radius:50%;
   overflow:hidden;background:var(--crema-2)}
-.panel figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.panel figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
 .panel .mono{position:absolute;inset:0;display:grid;place-items:center;color:var(--rosa-d);
   font-weight:900;font-size:1.9rem;letter-spacing:.02em;
   box-shadow:inset 0 0 0 2px var(--linea);border-radius:50%}
