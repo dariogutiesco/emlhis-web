@@ -122,7 +122,11 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:70;background:rg
 .ev .tag{font-size:.66rem;font-weight:900;text-transform:uppercase;letter-spacing:.07em;color:var(--rosa-d)}
 .ev .tt{display:block;font-size:clamp(1.02rem,1.55vw,1.2rem);font-weight:900;line-height:1.3}
 .ev .vv{display:block;font-size:.8rem;font-weight:500;color:var(--apagado);margin-top:6px;line-height:1.5}
-.ev .go{font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;color:var(--rosa-d);white-space:nowrap}
+.ev .go{display:inline-block;padding:11px 20px;border-radius:9px;
+  box-shadow:inset 0 0 0 1.5px var(--rosa);background:transparent;color:var(--rosa-d);
+  font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.04em;
+  white-space:nowrap;transition:background .18s,color .18s,box-shadow .18s}
+.ev:hover .go{background:var(--rosa);color:#fff;box-shadow:none}
 .ev.soon{opacity:.55}
 .ev.simple{grid-template-columns:150px 1fr auto}
 @media(max-width:840px){
@@ -322,8 +326,8 @@ footer{background:var(--crema-2);padding:clamp(52px,6vw,88px) var(--gut) 34px}
 .sesion li em{font-style:italic;font-weight:900}
 .sesion .dir{margin-top:20px;font-size:.8rem;font-weight:500;color:var(--apagado);line-height:1.5}
 .sesion .cta{margin-top:auto;padding-top:24px}
-.sesion .aviso{display:inline-block;margin-top:auto;padding-top:24px;font-size:.76rem;font-weight:900;
-  text-transform:uppercase;letter-spacing:.05em;color:var(--apagado)}
+.sesion .estado{display:block;margin-bottom:12px;font-size:.72rem;font-weight:900;
+  text-transform:uppercase;letter-spacing:.08em;color:var(--apagado)}
 .sesion.agotado{background:var(--crema-2)}
 .sesion.agotado .hora{background:var(--apagado)}
 .sesion.tbc .hora{background:var(--tinta)}
