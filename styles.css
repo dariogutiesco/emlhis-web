@@ -415,3 +415,26 @@ section[id]{scroll-margin-top:92px}
   color:var(--apagado);line-height:1.45}
 .libro em{display:inline-block;margin-top:10px;font-style:normal;font-size:.76rem;
   font-weight:900;letter-spacing:.02em;color:var(--rosa-d)}
+
+/* ── Arranque: texto a la izquierda, emblema a la derecha ──────── */
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) clamp(190px,23vw,360px);
+  align-items:center;gap:clamp(24px,4vw,72px)}
+.hero-grid .d1{font-size:clamp(2.6rem,7.6vw,6.9rem)}
+.hero-mark{width:100%;height:auto;justify-self:center}
+.esencia{margin:clamp(22px,2.6vw,34px) 0 0;max-width:34ch;
+  font-size:clamp(1.05rem,1.7vw,1.44rem);font-weight:500;line-height:1.42;color:var(--ink-2,#59413F)}
+.esencia strong{font-weight:900;color:var(--rosa-d)}
+.hero-grid .acts{margin-top:clamp(26px,3vw,40px);display:flex;flex-wrap:wrap;gap:12px}
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:clamp(18px,3vw,30px)}
+  .hero-mark{order:-1;width:clamp(116px,22vw,190px);justify-self:start}
+  .hero-grid .d1{font-size:clamp(2.6rem,10.4vw,6.9rem)}
+}
+
+/* ── Enlace al canal de YouTube ────────────────────────────────── */
+.yt{display:inline-flex;align-items:center;gap:10px;margin-top:20px;
+  padding:11px 18px 11px 14px;border:1.5px solid var(--linea);border-radius:999px;
+  background:var(--crema);color:var(--tinta);text-decoration:none;
+  font-size:.82rem;font-weight:900;letter-spacing:.01em;transition:border-color .18s,background .18s}
+.yt svg{width:28px;height:20px;flex:none;display:block}
+.yt:hover{border-color:#FF0000;background:#fff}

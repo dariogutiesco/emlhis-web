@@ -1,0 +1,21 @@
+QUÉ SUBIR Y DÓNDE
+=================
+
+Descomprime este zip. Verás esto:
+
+  index.html          <- va a la RAÍZ del repositorio
+  styles.css          <- va a la RAÍZ del repositorio
+  barcelona/          <- carpeta: arrástrala tal cual a la raíz
+  img/                <- carpeta: arrástrala tal cual a la raíz
+
+No abras las carpetas ni muevas archivos sueltos. Arrastra a la vez
+los dos archivos y las dos carpetas a la raíz del repositorio, en
+GitHub -> Add file -> Upload files. GitHub respeta las rutas y
+sobrescribe lo que coincida. Nada de lo que ya hay se borra.
+
+Dentro de las carpetas van (no hace falta que hagas nada con ellos):
+  barcelona/index.html                      pagina de Barcelona
+  img/logo-emlhis.png                       emblema del arranque
+  img/aliados/instituto-cultural-mexico.png
+  img/aliados/noaway.png
+  img/aliados/50mas1-internacional.png
