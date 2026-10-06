@@ -1,21 +1,28 @@
 QUÉ SUBIR Y DÓNDE
 =================
 
-Descomprime este zip. Verás esto:
+Descomprime el zip. En el primer nivel verás CUATRO cosas:
 
-  index.html          <- va a la RAÍZ del repositorio
-  styles.css          <- va a la RAÍZ del repositorio
-  barcelona/          <- carpeta: arrástrala tal cual a la raíz
-  img/                <- carpeta: arrástrala tal cual a la raíz
+  index.html      <- archivo
+  styles.css      <- archivo
+  barcelona/      <- carpeta
+  madrid/         <- carpeta
+  img/            <- carpeta
 
-No abras las carpetas ni muevas archivos sueltos. Arrastra a la vez
-los dos archivos y las dos carpetas a la raíz del repositorio, en
-GitHub -> Add file -> Upload files. GitHub respeta las rutas y
-sobrescribe lo que coincida. Nada de lo que ya hay se borra.
+Arrastra esas cinco cosas A LA VEZ a la RAÍZ del repositorio, en
+GitHub -> Add file -> Upload files. No abras las carpetas ni muevas
+archivos sueltos: GitHub respeta las rutas, sobrescribe lo que
+coincide y no borra nada de lo que ya hay.
 
-Dentro de las carpetas van (no hace falta que hagas nada con ellos):
-  barcelona/index.html                      pagina de Barcelona
-  img/logo-emlhis.png                       emblema del arranque
-  img/aliados/instituto-cultural-mexico.png
-  img/aliados/noaway.png
-  img/aliados/50mas1-internacional.png
+Contenido de las carpetas (no tienes que hacer nada con ellos):
+  barcelona/index.html                        pagina de Barcelona
+  madrid/index.html                           pagina de Madrid
+  img/logo-emlhis.png                         emblema del arranque
+  img/aliados/instituto-cultural-mexico.png   logo nuevo
+  img/aliados/noaway.png                      logo nuevo
+  img/aliados/50mas1-internacional.png        logo nuevo
+  img/ponentes/claudia-balseca.jpg            retrato nuevo
+  img/ponentes/elsa-grande.jpg                retrato nuevo
+
+Este zip INCLUYE todo lo del paquete anterior. Si no llegaste a
+subir aquel, con este basta.

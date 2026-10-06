@@ -404,13 +404,17 @@ section[id]{scroll-margin-top:92px}
   font-size:clamp(.96rem,1.35vw,1.16rem);font-weight:500;line-height:1.6;opacity:.82}
 
 /* ── El libro, con portada y enlace a Amazon ──────────────────── */
-.libro{display:flex;gap:clamp(14px,1.8vw,22px);align-items:center;margin-top:22px;
+.libro{display:flex;gap:clamp(16px,2.1vw,26px);align-items:center;margin-top:22px;
   padding:clamp(12px,1.5vw,18px);border:1.5px solid var(--linea);border-radius:16px;
   background:var(--crema);text-decoration:none;color:inherit;transition:border-color .18s}
 .libro:hover{border-color:var(--rosa)}
-.libro img{flex:none;width:clamp(72px,8vw,96px);height:auto;border-radius:5px;
+.libro img{flex:none;width:clamp(84px,9.5vw,116px);height:auto;border-radius:5px;
   box-shadow:0 7px 20px rgba(20,10,13,.2)}
-.libro b{display:block;font-size:clamp(.96rem,1.3vw,1.1rem);font-weight:900;line-height:1.2}
+.libro i{display:block;font-style:normal;font-size:.62rem;font-weight:900;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--apagado);margin-bottom:7px}
+.libro b{display:block;font-size:clamp(1.05rem,1.5vw,1.3rem);font-weight:900;line-height:1.16}
+.libro q{display:block;margin-top:9px;quotes:none;font-size:clamp(.84rem,1.1vw,.95rem);
+  font-weight:500;font-style:italic;line-height:1.45;color:var(--granate)}
 .libro small{display:block;margin-top:6px;font-size:.76rem;font-weight:500;
   color:var(--apagado);line-height:1.45}
 .libro em{display:inline-block;margin-top:10px;font-style:normal;font-size:.76rem;
