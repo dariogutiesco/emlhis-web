@@ -1,7 +1,7 @@
 QUÉ SUBIR Y DÓNDE
 =================
 
-Descomprime el zip. En el primer nivel verás CUATRO cosas:
+Descomprime el zip. En el primer nivel hay CINCO cosas:
 
   index.html      <- archivo
   styles.css      <- archivo
@@ -9,20 +9,8 @@ Descomprime el zip. En el primer nivel verás CUATRO cosas:
   madrid/         <- carpeta
   img/            <- carpeta
 
-Arrastra esas cinco cosas A LA VEZ a la RAÍZ del repositorio, en
-GitHub -> Add file -> Upload files. No abras las carpetas ni muevas
-archivos sueltos: GitHub respeta las rutas, sobrescribe lo que
-coincide y no borra nada de lo que ya hay.
+Arrástralas LAS CINCO A LA VEZ a la RAÍZ del repositorio, en
+GitHub -> Add file -> Upload files. No abras las carpetas: GitHub
+respeta las rutas, sobrescribe lo que coincide y no borra nada.
 
-Contenido de las carpetas (no tienes que hacer nada con ellos):
-  barcelona/index.html                        pagina de Barcelona
-  madrid/index.html                           pagina de Madrid
-  img/logo-emlhis.png                         emblema del arranque
-  img/aliados/instituto-cultural-mexico.png   logo nuevo
-  img/aliados/noaway.png                      logo nuevo
-  img/aliados/50mas1-internacional.png        logo nuevo
-  img/ponentes/claudia-balseca.jpg            retrato nuevo
-  img/ponentes/elsa-grande.jpg                retrato nuevo
-
-Este zip INCLUYE todo lo del paquete anterior. Si no llegaste a
-subir aquel, con este basta.
+Incluye TODO lo pendiente desde el 5 de octubre.
