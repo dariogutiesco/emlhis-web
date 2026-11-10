@@ -386,9 +386,9 @@ footer{background:var(--crema-2);padding:clamp(52px,6vw,88px) var(--gut) 34px}
 .mesa{margin-top:38px}
 section[id]{scroll-margin-top:92px}
 .mesa + .mesa{margin-top:52px}
-.mesa .sede-m{font-size:.78rem;font-weight:900;text-transform:uppercase;letter-spacing:.13em;
+.mesa .sede-m,.ed .sede-m{font-size:.78rem;font-weight:900;text-transform:uppercase;letter-spacing:.13em;
   color:var(--rosa-d);display:flex;flex-wrap:wrap;align-items:baseline;gap:10px}
-.mesa .sede-m span{color:var(--apagado);font-weight:500;letter-spacing:.04em;text-transform:none}
+.mesa .sede-m span,.ed .sede-m span{color:var(--apagado);font-weight:500;letter-spacing:.04em;text-transform:none}
 .panel{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(18px,2.4vw,34px);
   margin-top:26px;max-width:832px;margin-inline:auto}
 .panel article{flex:0 1 172px;text-align:center}
@@ -488,3 +488,14 @@ section[id]{scroll-margin-top:92px}
 .prensa a:hover{border-color:var(--rosa);background:#fff}
 @media(max-width:560px){.prensa{gap:10px}.prensa a{min-height:0;gap:10px;padding:18px 20px}}
 .credito{margin-top:12px;font-size:.72rem;font-weight:500;color:var(--apagado)}
+
+/* ── Encuentros: memoria por edición ───────────────────────────── */
+.ed{margin-top:clamp(36px,4.6vw,64px)}
+.ed h3{font-size:clamp(1.1rem,1.8vw,1.5rem);font-weight:900;margin:10px 0 0}
+.mas{columns:3 260px;column-gap:clamp(8px,1.1vw,14px);margin-top:22px}
+.mas img{display:block;width:100%;height:auto;margin:0 0 clamp(8px,1.1vw,14px);border-radius:4px;break-inside:avoid}
+.ed.proximo{background:var(--crema-2);border-radius:20px;padding:clamp(24px,3.2vw,44px)}
+.ed .yt{margin-right:10px}
+.duo.tres{grid-template-columns:repeat(3,1fr)}
+@media(max-width:1000px){.duo.tres{grid-template-columns:1fr}}
+.ver-mas{margin-top:26px}
