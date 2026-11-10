@@ -487,3 +487,4 @@ section[id]{scroll-margin-top:92px}
 .prensa span::after{content:" →"}
 .prensa a:hover{border-color:var(--rosa);background:#fff}
 @media(max-width:560px){.prensa{gap:10px}.prensa a{min-height:0;gap:10px;padding:18px 20px}}
+.credito{margin-top:12px;font-size:.72rem;font-weight:500;color:var(--apagado)}
